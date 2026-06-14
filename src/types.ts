@@ -3,7 +3,7 @@ export interface MenuItem {
   name: string;
   description: string;
   price: number;
-  category: 'thali' | 'starter' | 'fastfood' | 'chinese' | 'beverage' | 'dessert';
+  category: 'thali' | 'starter' | 'fastfood' | 'chinese' | 'beverage' | 'dessert' | 'extra';
   isPopular?: boolean;
   isChefSpecial?: boolean;
   spiciness?: 0 | 1 | 2 | 3; // 0 = not spicy, 3 = very spicy

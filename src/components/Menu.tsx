@@ -18,7 +18,8 @@ export default function Menu() {
     { id: 'fastfood', name: '🍕 Pizza & Burgers' },
     { id: 'chinese', name: '🥢 Indo-Chinese' },
     { id: 'beverage', name: '🥤 Royal Shakes' },
-    { id: 'dessert', name: '🍨 Ice Creams' },
+    { id: 'dessert', name: '🍨 Ice Creams & Sweets' },
+    { id: 'extra', name: '➕ Heritage Extras' },
   ];
 
   // Filter logic

@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { RESTAURANT_INFO } from '../data';
+import { RESTAURANT_INFO, RESTAURANT_IMAGES } from '../data';
 import { Calendar, Utensils, Star, Clock, MapPin, Check, Sparkles } from 'lucide-react';
 import { motion } from 'motion/react';
 
@@ -44,7 +44,7 @@ export default function Hero({ onOpenReservation }: HeroProps) {
         {/* We use our generated shivoy_hero image loaded from assets */}
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat transform scale-102 transition-transform duration-10000"
-          style={{ backgroundImage: `url('${RESTAURANT_INFO.gmapsEmbed ? '/src/assets/images/shivoy_hero_1781416690529.jpg' : ''}')` }}
+          style={{ backgroundImage: `url('${RESTAURANT_IMAGES.hero || ""}')` }}
         />
         {/* Advanced elegant gradient overlay */}
         <div className="absolute inset-0 bg-gradient-to-t from-[#050811] via-[#050811]/80 to-black/80" />
